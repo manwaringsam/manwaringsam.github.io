@@ -1,0 +1,80 @@
+
+main{
+    margin: 0 auto;
+    max-width: 350px;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.grid{
+    margin: 0 auto;
+    width: 350px;
+    display: grid;
+    background-color: white;
+    color: black;
+    grid-column: 2/6;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    align-items: center;
+}
+footer{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1/-1;
+    background-color: black;
+    align-items: center;
+    background-color: navy;
+    color: white;
+    margin-top: -17px;
+}
+
+img{
+    grid-column: 1/-1;
+    width: 100%;
+}
+
+.date{
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+.article{
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+.read_time{
+    grid-column: 1/2;
+    text-align: center;
+    justify-content: left;
+    justify-items: center;
+    justify-self: center;
+    text-align: center;
+}
+.views{
+    grid-column: 2/3;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    text-align: center;
+}
+.comments{
+    grid-column: 3/4;
+    text-align: center;
+    justify-content: right;
+    justify-items: center;
+    justify-self: center;
+    text-align: center;
+}
