@@ -1,0 +1,26 @@
+main {
+    background-color: pink;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+
+div {
+    border: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: whitesmoke;
+}
+
+button {
+    background-color: lightskyblue; /* Green */
+    border: none;
+    border-radius: 10%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
