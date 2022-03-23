@@ -21,7 +21,7 @@ content {
     margin-left: 40px;
 }
 
-/* nav section (HOME, PAGE 2, SITE PLAN, CONTACT US) */
+/* nav section (HOME, TERMS, ASSESMENT SITE PLAN) */
 
 nav{
     display: flex;
@@ -134,7 +134,7 @@ main section {
 body {
     background: rgb(255,255,255);
     background: linear-gradient(#2c4251, #601700);
-    font-family: Cairo;
+    font-family: Arimo;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -350,7 +350,7 @@ main section img {
 }
 
 .home-title{
-    font-family: Chonburi;
+    font-family: Baloo+2;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -369,7 +369,7 @@ main section img {
 }
 
 .msg h2{
-    font-family: Chonburi;
+    font-family: Baloo+2;
     color: #c1c1c1;
 }
 
